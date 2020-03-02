@@ -1,11 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, render
 
 # Create your views here.
 def entrar(request):
-    pass
+    return render(request, 'entrar.html')
 
 def sair(request):
-    pass
+    return render(request, 'sair.html')
 
 def cadastrar(request):
-    pass
+    return render(request, 'cadastrar.html')
